@@ -1,0 +1,28 @@
+---
+source: Enron Email Dataset (CMU / FERC public release)
+license: Public domain (US government investigation release; research corpus)
+category: email
+from: jane.tholt@enron.com
+subject: Socal - Deal #151617 for July '00
+path_in_corpus: maildir/tholt-j/_sent_mail/181.
+---
+
+Subject: Socal - Deal #151617 for July '00
+
+To: Jane M Tholt/HOU/ECT@ECT
+cc:  
+Subject: Socal - Deal #151617 for July '00
+
+Janie,
+
+ I have been talking with EES and they have confirmed their volumes for their 
+purchases from ENA (I believe that it is Zarin who comfirmed their volumes on 
+their side).  I need you to confirm and verify our volumes and to change them 
+(or contact who can change them) if needed.  I am trying to get EES to pay us 
+for these transactions and they will not if they do not agree.  The amount 
+that we are talking about is over $10 mil.  Could you please look at this so 
+that I can get this resolved today?  The following shows what we are out:
+
+
+
+Please let me know what you find out.  Thanks...
