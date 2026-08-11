@@ -20,6 +20,12 @@ Prefer one of:
 
 **Review:** scan every paragraph’s first sentence. Clean short S–V–O action beat → rewrite.
 
+**Hard ban: "the part / the section / the bit" framing.**  
+Do not write “the part people see,” “the section that matters,” “the bit where…,” “the part he saved for last,” or any “the [noun-slot] X that/where…” used to label a slice of scene or meaning. State the thing without the pointer label.  
+Also ban cousins: “the kind of X that…,” “that special kind of…,” when used as essay glue (not when quoting a person).
+
+**Soft caution (not a banlist):** skip over-clever personification and niche metaphors nobody would actually say out loud (“the property line looked like a joke aimed at him,” “crabgrass wins every summer”). Prefer plain observation. Do not invent a long banned-metaphor list; just cut anything that sounds like a writing exercise.
+
 ### 2. Resolution
 Do not close every loop. Skip tidy "Ultimately…" summaries. End on the sharpest or least-settled point. Take a side; false balance ("While X is true, Y also matters") is an AI default.
 

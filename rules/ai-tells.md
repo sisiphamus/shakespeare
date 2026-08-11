@@ -34,6 +34,7 @@ Trying too hard to sound human:
 - **P5** Mannered aphorism / kicker closer  
 - **P6** Punchy-for-effect phrasing that a normal person wouldn't type  
 - **P7** Default short declarative openers — bare 4–8 word S–V–O hooks as paragraph or piece openers ("The mower started on the third pull." "He cut the front in straight lines."). Fix: hitch in the same sentence, start mid-action, lead with mess, or fold into a longer line. Cap density; never stack as consecutive openers.
+- **P8** Over-clever personification / workshop metaphor (soft tell, not a rotating banlist) — lines no one would say: lawns "winning," property lines as jokes "aimed at" someone. Fix: plain what happened. Do not build a catalog of banned metaphors; flag and cut when it smells like an exercise.
 
 **Rule:** if a line sounds like a copywriting class, be suspicious.
 
