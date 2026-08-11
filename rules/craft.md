@@ -24,7 +24,16 @@ Prefer one of:
 Do not write “the part people see,” “the section that matters,” “the bit where…,” “the part he saved for last,” or any “the [noun-slot] X that/where…” used to label a slice of scene or meaning. State the thing without the pointer label.  
 Also ban cousins: “the kind of X that…,” “that special kind of…,” when used as essay glue (not when quoting a person).
 
-**Soft caution (not a banlist):** skip over-clever personification and niche metaphors nobody would actually say out loud (“the property line looked like a joke aimed at him,” “crabgrass wins every summer”). Prefer plain observation. Do not invent a long banned-metaphor list; just cut anything that sounds like a writing exercise.
+**Hard ban: definitional punch sentences.**  
+Do not land a cute 3–7 word definition after a metaphor: “That joining is fusion.” “This is gravity.” “That leftover is energy.” Fold the name into a normal sentence, or keep explaining without the snap label.
+
+**Hard ban: fake-plain gloss verbs** (in science/explainer and often elsewhere):  
+“shows up as,” “falls out as,” “comes out as,” “turns into” used as cutesy physics/essay glue for energy, light, heat, daylight. Prefer ordinary wording: becomes heat and light; is released as heat and light; you get heat and light.
+
+**Soft caution (not a long banlist):**  
+- Skip over-clever personification nobody would say (“joke aimed at him,” “crabgrass wins,” nuclei having “brief meetings,” a force that “wins every time”).  
+- Avoid **weird verb-as-noun reification**: “that squeeze,” “the shove,” “the joining” as a pet object when a plain verb or standard term works (“holding them together,” “the pressure,” “when they fuse”).  
+Prefer plain observation. Do not catalog every bad metaphor; cut when it smells like a writing exercise.
 
 ### 2. Resolution
 Do not close every loop. Skip tidy "Ultimately…" summaries. End on the sharpest or least-settled point. Take a side; false balance ("While X is true, Y also matters") is an AI default.

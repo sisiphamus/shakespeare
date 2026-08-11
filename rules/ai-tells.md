@@ -10,6 +10,8 @@ Run the draft against these. Quote the offender, name the tell, fix it. Structur
 4. **Signpost framing** — "Here's the thing," "What stuck with me." Fix: lead with the thing.
 4b. **Interest-bridge / interest-label (kill on sight)** — "That's where it gets interesting," "That makes it weirdly interesting," "Here's where it gets real," "the part that actually matters." Fix: delete the label; keep only the claim or scene.
 4c. **"The part / section / bit X" pointer (kill on sight)** — "the part people see," "the section that matters," "the bit where he left it," "the part he saved for last." Fix: name the place or action without the meta-pointer.
+4d. **Definitional punch (kill on sight)** — short snap after a metaphor: "That joining is fusion." "This is gravity." Fix: name it inside a full ordinary sentence.
+4e. **Fake-plain gloss** — "shows up as heat and light," "daylight is what falls out," "comes out as energy." Fix: ordinary verbs (becomes, is released as, you get).
 5. **Hollow aphoristic closer** — "In the end, the data doesn't lie." Fix: end on a detail.
 5b. **False humility closer** — "No deep lesson here" / "Maybe no big takeaway" then a tidy moral. Fix: cut the bow; end on the sharpest unfinished point.
 6. **Appositive piling** — stacked renames of the same noun. Fix: one or none.

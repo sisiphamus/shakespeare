@@ -19,7 +19,9 @@ Give this file to a **fresh subagent** (preferred) or re-read it yourself before
    - Sealed observational product / multi-beat coach memo when short was enough  
    - Default short declarative openers (bare 4–8 word S–V–O paragraph hooks; rewrite with hitch / mid-action / mess)  
    - "The part / section / bit X" pointer labels  
-   - Over-clever workshop metaphors nobody would say (plain them; no banlist of metaphors)  
+   - Definitional punches ("That joining is fusion.")  
+   - Fake-plain gloss ("shows up as," "falls out as" heat/light/energy)  
+   - Over-clever workshop metaphors / weird verb-as-noun reification (plain them; no metaphor banlist)  
 2. **De-AI:** walk `ai-tells.md` (structural → performance → product tells → register → vocab). Quote and fix.  
 3. **Voice match (if twin mode):** cadence/diction vs their samples.  
 4. **Reader psych** for short external: safe / fluent / ego-true.  
