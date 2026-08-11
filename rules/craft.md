@@ -7,6 +7,19 @@ Humanness is **written into the frame before generation**, not edited in after. 
 ### 1. Cadence / rhythm
 Vary sentence length hard. A short line. Then one that runs and accumulates before it lands. Never three consecutive sentences in the same length band. Rhythm survives model generations; vocabulary does not.
 
+**Ban: default short declarative openers (4–8 word clean S–V–O hooks).**  
+Agents overuse tidy scene-starters that feel literary and safe: “The mower started on the third pull.” “Eli looped the cord over his shoulder.” “He cut the front in straight lines.” “A kid rode past on a bike and kept going.”
+
+Do **not** open a paragraph (or the piece) with a bare 4–8 word action sentence unless the same sentence already carries friction, wrongness, thought, or hitch.
+
+Prefer one of:
+1. **Attach a hitch** in the same breath — second clause that complicates the action  
+2. **Start mid-action or mid-thought** — after the gesture has begun, not at its clean start  
+3. **Lead with mess** — leftover, delay, sound, clog, not the pure verb  
+4. **Density cap** — at most one bare 4–8 word declarative per ~100 words; never two in a row; never as consecutive paragraph openers
+
+**Review:** scan every paragraph’s first sentence. Clean short S–V–O action beat → rewrite.
+
 ### 2. Resolution
 Do not close every loop. Skip tidy "Ultimately…" summaries. End on the sharpest or least-settled point. Take a side; false balance ("While X is true, Y also matters") is an AI default.
 

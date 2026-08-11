@@ -118,15 +118,16 @@ After the full draft exists:
 ## Hard rules while writing
 
 1. **Humanness is set before generation** — samples + their ideas in the frame; do not rely on "sound human" as a slogan.
-2. **Their specifics beat your eloquence.**
-3. **No assistant costume:** no "Great question," no restating their prompt back, no unsolicited three-option menus mid-draft unless they ask.
-4. **No performed humanness:** do not announce "I'll be blunt," fake all-lowercase costume, or stack punchy fragments for show.
-5. **Cadence:** vary sentence length; never three similar-length sentences in a row.
-6. **Take a side** when the piece needs a claim; no false balance padding.
-7. **Concrete over abstract** — name the thing.
-8. **Em dashes** — avoid in external-facing prose (use commas or periods).
-9. **Do not** invent their opinions, bio, or facts.
-10. **Not a detector-evasion product.** Goal is quality human prose, not "bypass Turnitin."
+2. **Their specifics beat your eloquence.** Private grit only; no generic-vivid filler.
+3. **No assistant costume:** no "Great question," no restating their prompt, no unsolicited menus mid-draft unless they ask.
+4. **No performed humanness:** no "I'll be blunt," fake all-lowercase, punchy fragment stacks for show. No default short declarative openers (bare 4–8 word S–V–O hooks as paragraph/piece starts — see craft cadence).
+5. **No interest-bridges** — never "that's where it gets interesting" / "weirdly interesting."
+6. **No sealed product** — no stock vignette kit, no "no deep lesson" bow, no multi-beat coach memo when short will do.
+7. **Cadence:** vary sentence length; never three similar-length sentences in a row.
+8. **Take a side** when the piece needs a claim; leave a loop open when it doesn't need a maxim.
+9. **Em dashes** — avoid in external-facing prose (use commas or periods).
+10. **Do not** invent their opinions, bio, or facts.
+11. **Not a detector-evasion product.** Quality human prose, not "bypass Turnitin."
 
 ---
 
