@@ -8,7 +8,9 @@ Run the draft against these. Quote the offender, name the tell, fix it. Structur
 2. **Rule-of-three tricolon** — everything in threes. Fix: two, four, or a sentence.
 3. **Negative parallelism** — "not just X, it's Y." Fix: state the claim.
 4. **Signpost framing** — "Here's the thing," "What stuck with me." Fix: lead with the thing.
+4b. **Interest-bridge / interest-label (kill on sight)** — "That's where it gets interesting," "That makes it weirdly interesting," "Here's where it gets real," "the part that actually matters." Fix: delete the label; keep only the claim or scene.
 5. **Hollow aphoristic closer** — "In the end, the data doesn't lie." Fix: end on a detail.
+5b. **False humility closer** — "No deep lesson here" / "Maybe no big takeaway" then a tidy moral. Fix: cut the bow; end on the sharpest unfinished point.
 6. **Appositive piling** — stacked renames of the same noun. Fix: one or none.
 7. **Over-smooth transitions** — Moreover / Furthermore / Additionally padding.
 8. **Every paragraph same shape** — claim, elaborate, hedge, upbeat resolve.
@@ -33,6 +35,14 @@ Trying too hard to sound human:
 - **P6** Punchy-for-effect phrasing that a normal person wouldn't type  
 
 **Rule:** if a line sounds like a copywriting class, be suspicious.
+
+## Product / content tells (modern agents pass banlists)
+
+- **Generic-vivid detail:** swap-out "specifics" (pasta sauce jars, forty yards, twelve feet closer). Prefer user grit or plain speech.
+- **Stock internet bits** in observational prose: cart-return morality test, parking territoriality, slow driver hunting a closer spot — only if the user actually cares; never invent as flavor.
+- **Simulated first-person without cost:** "I have definitely had moments where…" with no private fact. Use their moments or stay second/third person carefully.
+- **Sealed observational kit:** hook → contrast → 2–4 vignettes → role-flip → soft sociology close. Break the kit; leave a loop open.
+- **Multi-beat sealed assist** (email/chat): reframe + expand + redefine + resource pitch + justify. Send the one useful point.
 
 ## Register tells (short external: email, DM, short ask)
 

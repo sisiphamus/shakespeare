@@ -29,7 +29,9 @@ One-liner for the agent:
 3. Loads craft rules + AI-tell + reader-psychology checks
 4. Optional: **your voice** via local files, Google Drive/Docs MCP, Gmail MCP (sent mail)
 5. Writes **section by section**, asking after each for more of your specifics
-6. **Review pass** (separate subagent if possible): de-AI + voice match
+6. **Review pass** (separate subagent if possible): de-AI + grit check + voice match
+
+**Hard anti-tells (from live calibration):** no interest-bridges ("gets interesting"), no generic-vivid stock detail, no sealed observational essay kit, no false-humility closers. User grit > invented color.
 
 ## Modes
 

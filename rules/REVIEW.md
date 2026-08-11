@@ -12,11 +12,19 @@ Give this file to a **fresh subagent** (preferred) or re-read it yourself before
 
 ## Job
 
-1. **De-AI:** walk `ai-tells.md` (structural → performance → register → email anti-templates → vocab). Quote and fix.  
-2. **Voice match (if twin mode):** compare cadence, diction, formality, humor to the user's samples. Rewrite lines that sound like a generic model with their samples nearby.  
-3. **Reader psych** for short external pieces: safe / fluent / ego-true.  
-4. **Preserve** the user's ideas, claims, and any lines they wrote. Do not invent new facts.  
-5. Return the **full revised draft**, not a bullet list of suggestions only (list of changes optional after).  
+1. **Hard kills first (2026 learnings):**  
+   - Interest-bridge / interest-label ("gets interesting," "weirdly interesting")  
+   - False humility + neat moral bow  
+   - Generic-vivid stock detail (replace with user grit or cut)  
+   - Sealed observational product / multi-beat coach memo when short was enough  
+2. **De-AI:** walk `ai-tells.md` (structural → performance → product tells → register → vocab). Quote and fix.  
+3. **Voice match (if twin mode):** cadence/diction vs their samples.  
+4. **Reader psych** for short external: safe / fluent / ego-true.  
+5. **Grit check:** does every "specific" detail come from the user or a real sample? Invented flavor → cut or ask.  
+6. **Preserve** their ideas and lines. Do not invent facts.  
+7. Return the **full revised draft** (optional short change list after).
+
+Optional later: a separate **Turing** pass is fine as a gym, not required to ship.
 
 ## Self-grade fallback
 

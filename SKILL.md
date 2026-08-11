@@ -35,14 +35,14 @@ Tell them clearly:
 Then ask (skip any they already answered; never block if they only give a topic):
 
 1. **What** are you writing? (email, essay, post, paper, story, other)
-2. **Who** is it for? (audience)
+2. **Who** is it for? — for **email**: relationship (who → whom); for **essay**: what the receiver expects at this stage (graded close reading, public post, draft, etc.)
 3. **Topic** — and your **specific take or angle** (what do *you* believe / want to argue / notice that a generic piece would miss?)
 4. **Rough outline** or section list if they have one
 5. **Rough notes**, bullets, half-thoughts — paste anything
-6. **Concrete examples, stories, numbers, or quotes** they want inside the piece
+6. **Concrete examples, stories, numbers, or quotes** they want inside the piece (private grit — not "make something up that sounds specific")
 7. Anything they **do not** want (tone, claims, length)
 
-**Core principle (temperature = their ideas):** generic AI writing is empty because it has no private specifics. Every real opinion, anecdote, and awkward detail they give you is fuel. Prefer their words over yours.
+**Core principle (temperature = their ideas):** generic AI writing is empty because it has no private specifics. Every real opinion, anecdote, and awkward detail they give you is fuel. Prefer their words over yours. Invented "vivid" details still read as AI.
 
 ### 2. Pick a sample category
 
