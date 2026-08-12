@@ -1,10 +1,4 @@
-```
-SHAKESPEARE          ________
-                     /       /|
-write like a person /_______/ |
-or like you         |       | /
-                    |_______|/
-```
+![shakespeare](assets/banner.png)
 
 # Shakespeare
 
