@@ -1,13 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title">
   <title id="title">Shakespeare</title>
-  <rect width="1280" height="300" fill="#0a0a0a"/>
-  <!-- Word only. figlet -f slant. Never a book/object/tagline. -->
+  <rect width="1280" height="320" fill="#0a0a0a"/>
   <text font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'DejaVu Sans Mono', monospace"
-        font-size="20" fill="#f4f4f5" xml:space="preserve">
-    <tspan x="40" y="90">   _____ __  _____    __ __ ___________ ____  _________    ____  ______</tspan>
-    <tspan x="40" y="120">  / ___// / / /   |  / //_// ____/ ___// __ \/ ____/   |  / __ \/ ____/</tspan>
-    <tspan x="40" y="150">  \__ \/ /_/ / /| | / ,&lt;  / __/  \__ \/ /_/ / __/ / /| | / /_/ / __/   </tspan>
-    <tspan x="40" y="180"> ___/ / __  / ___ |/ /| |/ /___ ___/ / ____/ /___/ ___ |/ _, _/ /___   </tspan>
-    <tspan x="40" y="210">/____/_/ /_/_/  |_/_/ |_/_____//____/_/   /_____/_/  |_/_/ |_/_____/   </tspan>
+        font-size="18" fill="#f4f4f5" xml:space="preserve">
+    <tspan x="40" y="95">   _____ __  _____    __ __ ___________ ____  _________    ____  ______</tspan>
+    <tspan x="40" y="123">  / ___// / / /   |  / //_// ____/ ___// __ \/ ____/   |  / __ \/ ____/</tspan>
+    <tspan x="40" y="151">  \__ \/ /_/ / /| | / ,&lt;  / __/  \__ \/ /_/ / __/ / /| | / /_/ / __/   </tspan>
+    <tspan x="40" y="179"> ___/ / __  / ___ |/ /| |/ /___ ___/ / ____/ /___/ ___ |/ _, _/ /___   </tspan>
+    <tspan x="40" y="207">/____/_/ /_/_/  |_/_/ |_/_____//____/_/   /_____/_/  |_/_/ |_/_____/   </tspan>
   </text>
+  <!-- open book -->
+  <g transform="translate(1000,95)">
+    <!-- covers -->
+    <polygon points="-10,14 -150,4 -162,152 -22,168" fill="#18181b" stroke="#a1a1aa" stroke-width="1.2"/>
+    <polygon points="10,14 150,4 162,152 22,168" fill="#18181b" stroke="#a1a1aa" stroke-width="1.2"/>
+    <!-- pages -->
+    <polygon points="-8,10 -145,0 -155,145 -18,160" fill="#f4f4f5" stroke="#d4d4d8" stroke-width="1"/>
+    <polygon points="8,10 145,0 155,145 18,160" fill="#f4f4f5" stroke="#d4d4d8" stroke-width="1"/>
+    <!-- text lines left -->
+    <g stroke="#a1a1aa" stroke-width="1">
+      <line x1="-130" y1="30" x2="-35" y2="38"/>
+      <line x1="-132" y1="50" x2="-33" y2="58"/>
+      <line x1="-134" y1="70" x2="-31" y2="78"/>
+      <line x1="-136" y1="90" x2="-29" y2="98"/>
+      <line x1="-138" y1="110" x2="-27" y2="118"/>
+      <line x1="-140" y1="130" x2="-25" y2="138"/>
+    </g>
+    <!-- text lines right -->
+    <g stroke="#a1a1aa" stroke-width="1">
+      <line x1="35" y1="38" x2="130" y2="30"/>
+      <line x1="33" y1="58" x2="132" y2="50"/>
+      <line x1="31" y1="78" x2="134" y2="70"/>
+      <line x1="29" y1="98" x2="136" y2="90"/>
+      <line x1="27" y1="118" x2="138" y2="110"/>
+      <line x1="25" y1="138" x2="140" y2="130"/>
+    </g>
+    <!-- gutter -->
+    <line x1="0" y1="12" x2="5" y2="158" stroke="#3f3f46" stroke-width="3"/>
+    <line x1="0" y1="12" x2="-5" y2="158" stroke="#3f3f46" stroke-width="2"/>
+  </g>
 </svg>
