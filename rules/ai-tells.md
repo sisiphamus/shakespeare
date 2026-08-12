@@ -37,7 +37,10 @@ Trying too hard to sound human:
 - **P5** Mannered aphorism / kicker closer  
 - **P6** Punchy-for-effect phrasing that a normal person wouldn't type  
 - **P7** Default short declarative openers — bare 4–8 word S–V–O hooks as paragraph or piece openers ("The mower started on the third pull." "He cut the front in straight lines."). Fix: hitch in the same sentence, start mid-action, lead with mess, or fold into a longer line. Cap density; never stack as consecutive openers.
-- **P8** Over-clever personification / workshop metaphor (soft tell, not a rotating banlist) — lines no one would say: lawns "winning," property lines as jokes "aimed at" someone. Fix: plain what happened. Do not build a catalog of banned metaphors; flag and cut when it smells like an exercise.
+- **P8** Over-clever personification / workshop metaphor (soft tell, not a rotating banlist) — lines no one would say: lawns "winning," property lines as jokes "aimed at" someone, nuclei having "brief meetings," a force that "wins every time." Fix: plain what happened. Do not build a catalog of banned metaphors; flag and cut when it smells like an exercise.
+- **P9** Weird verb-as-noun reification (soft tell) — "building and holding that squeeze," "the shove," "the joining" as a cute object. Fix: use a normal verb or a standard noun (pressure, collision, fusion).
+- **P10** Faux-casual science / explainers (soft tell) — "hydrogen's kind," "not kitchen chemistry," "not tabletop physics." Fix: ordinary wording (hydrogen nuclei; hard to do on Earth).
+- **P11** Meta teach-back cosplay (soft tell, often hard-kill in explainers) — "If that still feels thin…," "the usual gaps are…," "if you try teaching it back without notes…" Fix: drop the method commentary; keep the explanation.
 
 **Rule:** if a line sounds like a copywriting class, be suspicious.
 

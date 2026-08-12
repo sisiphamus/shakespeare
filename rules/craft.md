@@ -33,6 +33,8 @@ Do not land a cute 3–7 word definition after a metaphor: “That joining is fu
 **Soft caution (not a long banlist):**  
 - Skip over-clever personification nobody would say (“joke aimed at him,” “crabgrass wins,” nuclei having “brief meetings,” a force that “wins every time”).  
 - Avoid **weird verb-as-noun reification**: “that squeeze,” “the shove,” “the joining” as a pet object when a plain verb or standard term works (“holding them together,” “the pressure,” “when they fuse”).  
+- Avoid **faux-casual science phrasing** nobody says: “hydrogen’s kind,” “not kitchen chemistry,” “not tabletop physics,” cute category shrugs meant to sound plain.  
+- Avoid **meta teach-back cosplay** when explaining: “If that still feels thin…,” “the usual gaps are…,” “if you try teaching it back without notes…” — that is performing the Feynman method, not using it. Just explain clearly.  
 Prefer plain observation. Do not catalog every bad metaphor; cut when it smells like a writing exercise.
 
 ### 2. Resolution
