@@ -22,6 +22,8 @@ Give this file to a **fresh subagent** (preferred) or re-read it yourself before
    - Definitional punches ("That joining is fusion.")  
    - Fake-plain gloss ("shows up as," "falls out as" heat/light/energy)  
    - Over-clever workshop metaphors / weird verb-as-noun reification (plain them; no metaphor banlist)  
+   - Faux-casual science ("hydrogen's kind," "not kitchen chemistry")  
+   - Meta teach-back cosplay ("if that still feels thin," "the usual gaps are…")  
 2. **De-AI:** walk `ai-tells.md` (structural → performance → product tells → register → vocab). Quote and fix.  
 3. **Voice match (if twin mode):** cadence/diction vs their samples.  
 4. **Reader psych** for short external: safe / fluent / ego-true.  
