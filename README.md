@@ -1,60 +1,132 @@
-# Shakespeare (instance 1)
+<p align="center">
+  <img src="assets/banner.svg" alt="Shakespeare" width="100%"/>
+</p>
 
-Write like a human, or like a specific person if you feed the skill their writing.
+<p align="center">
+  <a href="#install"><img src="https://img.shields.io/badge/install-clone_&_point-1c1410?style=for-the-badge&labelColor=0c0a09&color=d4a574" alt="install"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1c1410?style=for-the-badge&labelColor=0c0a09&color=f5e6c8" alt="MIT"/></a>
+  <img src="https://img.shields.io/badge/type-agent_skill-1c1410?style=for-the-badge&labelColor=0c0a09&color=a88b6a" alt="agent skill"/>
+  <img src="https://img.shields.io/badge/host-agnostic-1c1410?style=for-the-badge&labelColor=0c0a09&color=6b5344" alt="host agnostic"/>
+</p>
 
-This is a process rather than a detector-evasion tool: real samples, the user's ideas, section-by-section drafting, then a review that removes AI sludge and checks voice.
+<p align="center">
+  <code>email</code> · <code>essay</code> · <code>post</code> · <code>story</code> · <code>academic</code> · <code>chat</code> · <code>voice-match</code>
+</p>
 
-**shakespeare-1** is a test copy of the main skill with the instructional prose rewritten for a more casual, human register. The rules and information match the parent system.
+---
+
+# Shakespeare
+
+Your agent already writes. It just writes like a product brochure with a soul patch.
+
+**Shakespeare** is a drop-in skill that forces a real process: steal your ideas first, read human samples, draft in chunks, then check the work like it matters. Generic human, or *your* voice if you feed it your writing.
+
+Not a magic "undetectable" button. If you give it nothing private, you get nothing private.
+
+---
 
 ## Install
 
 ```bash
 git clone https://github.com/sisiphamus/shakespeare.git
-# or point your agent at this folder
 ```
 
-| Host | What to do |
-|------|------------|
-| Claude Code | Point at this path, or symlink into skills |
-| Codex / Cursor | Use Shakespeare at `<path>` and read SKILL.md |
-| Hermes / OpenClaw | Put the folder on the skill path; entry files are `SKILL.md` and `AGENTS.md` |
+Point any agent at the folder:
 
-Tell the agent to open this Shakespeare folder, read `SKILL.md`, and run that process for the writing task.
+```text
+Use the Shakespeare skill in this folder.
+Read AGENTS.md then SKILL.md. Follow the process.
+```
 
-## What it does
+| Host | Notes |
+|------|--------|
+| Claude Code | Path or symlink into skills |
+| Codex / Cursor | Same one-liner |
+| Hermes / OpenClaw | Drop on the skill path (`SKILL.md` + `AGENTS.md`) |
 
-1. Asks what you are writing (questions are optional; more of your ideas usually helps)
-2. Loads real human samples from the closest category
-3. Loads craft, AI-tell, and reader-psych rules
-4. Optionally pulls your voice from local files, Drive/Docs, or Gmail sent mail
-5. Writes section by section and keeps asking for your specifics
-6. Runs a review pass for de-AI, grit, and voice match
+---
 
-Phrases that almost always sound fake include interest-bridges ("that's where it gets interesting"), stock "vivid" details nobody actually lived, neat observational essay kits, and closers that deny a deep lesson while handing you one. Prefer the user's grit.
+## What you get
 
-## Modes
+```
+you dump topic + takes + messy notes
+        │
+        ▼
+┌───────────────────┐
+│  samples by genre │  academic · narrative · chat · fun · email
+└─────────┬─────────┘
+          ▼
+┌───────────────────┐
+│  craft + banlist  │  rhythm, grit, hard kills
+└─────────┬─────────┘
+          ▼
+┌───────────────────┐
+│  section drafts   │  you keep interrupting with real details
+└─────────┬─────────┘
+          ▼
+┌───────────────────┐
+│  must check work  │  re-read rules, fix, then ship
+└───────────────────┘
+```
 
-- **Generic human** — samples and rules  
-- **Your voice** — same, plus as much of their writing as you can get  
+Two modes:
 
-Without files or MCP access, stay in generic human mode.
+| Mode | When |
+|------|------|
+| **generic human** | samples + rules |
+| **your voice** | same + your docs / Drive / sent mail |
+
+No files, no MCP? Generic human. Don't invent a "you."
+
+---
+
+## Hard kills (the stuff that always reeks)
+
+These get cut on review. Full list lives in `rules/`.
+
+| Die | Examples |
+|-----|----------|
+| Interest labels | "that's where it gets interesting," "weirdly interesting" |
+| Pointer glue | "the part people see," "the section that matters" |
+| Definition snaps | "That joining is fusion." |
+| Fake-plain gloss | "shows up as heat and light," "falls out as" |
+| Short S–V–O hooks | "The mower started on the third pull." as every paragraph open |
+| Sealed kits | stock vignette essays, multi-beat coach memos for a 3-line email |
+| Costume casual | fragment stacks, "I'll be blunt," workshop metaphors nobody says |
+
+**Grit over color.** Your awkward real detail beats a clever invented one every time.
+
+---
 
 ## Layout
 
-```
-shakespeare-1/
-  SKILL.md      # process
-  AGENTS.md     # short entry
-  README.md     # this file
-  LICENSE       # MIT for skill packaging
-  rules/        # craft, tells, reader psych, review
-  samples/      # real human text by category + SOURCES.md
+```text
+shakespeare/
+├── AGENTS.md      ← entry + MUST CHECK YOUR WORK
+├── SKILL.md       ← full process
+├── rules/
+│   ├── craft.md
+│   ├── ai-tells.md
+│   ├── reader-psych.md
+│   └── REVIEW.md
+├── samples/       ← real human text (see SOURCES.md)
+│   ├── academic/
+│   ├── narrative/
+│   ├── conversational/
+│   ├── fun/
+│   └── email/
+└── assets/
+    └── banner.svg
 ```
 
-## Samples
+Samples: Project Gutenberg, PLOS (CC BY), Enron public release, NUS SMS excerpts. Licenses on the files.
 
-See `samples/SOURCES.md` for provenance (Project Gutenberg public domain, PLOS CC BY, Enron public release, attributed NUS SMS excerpts).
+---
 
 ## License
 
-MIT for skill packaging and rules. Sample files keep the licenses in their headers.
+MIT for the skill packaging and rules. Sample text keeps whatever license is in its header.
+
+---
+
+<p align="center"><sub>built because banlists alone do not fix rhythm</sub></p>
