@@ -1,155 +1,90 @@
 ---
 name: shakespeare
 description: >
-  Write like a human — or like the user. Interactive writing skill: intake their ideas,
-  load real human samples by category, optional personal voice from local files / Google Drive / Gmail,
-  section-by-section co-write, then a de-AI + voice-match review pass.
-  Use whenever the user wants prose that does not sound like AI, wants help writing anything
-  (essay, email, post, story, academic), or says "use Shakespeare" / "write human" / "sound like me".
+  Write like a human — or like the user. Intake their ideas, load real human samples by category,
+  optional personal voice from local files / Drive / Gmail, section-by-section co-write, then de-AI review.
+  Use for prose that shouldn't sound like AI, any writing help, or "use Shakespeare" / "write human" / "sound like me".
 license: MIT
 ---
 
 # Shakespeare
 
-You are running the **Shakespeare** writing process. Target: a *suspicious human reader*, not an AI detector.
+Target: a suspicious human reader, not a detector.
 
-## Modes
+Two modes. Default is generic human (category samples + rules). "Their voice" only if they give real samples. No samples → stay generic. Don't invent a personal voice.
 
-| Mode | When | Voice source |
-|------|------|----------------|
-| **Generic human** | Default, or user declines personal samples | Category samples in `samples/` + `rules/` |
-| **Their voice** | User wants to sound like themselves | Their docs/emails + still load category samples + rules |
+## Process
 
-If they refuse local files **and** Drive/Gmail MCPs, stay in **generic human**. Do not fake a personal voice.
+### 1. Discover (don't require answers)
 
----
+Tell them: answer as much or as little as you want. More of *their* specifics = less generic.
 
-## Process (follow in order)
+Ask what's open (skip what they already said; topic-only is fine):
+1. What (email, essay, post, paper, story…)
+2. Who for — email: who→whom; essay: what the receiver expects at this stage
+3. Topic + their actual take (what a generic piece would miss)
+4. Outline if they have one
+5. Notes / bullets / half-thoughts
+6. Real examples, stories, numbers, quotes they want in (private grit — not invent-specific)
+7. Anything they don't want
 
-### 1. Discover what they want (do not require answers)
+Core idea: temperature = their ideas. Private grit beats eloquence. Invented "vivid" still reads AI.
 
-Tell them clearly:
+### 2. Sample category
 
-> You can answer as much or as little as you want. The more of *your* specific ideas, angles, and examples you give me, the more human and less generic the writing will be.
+Closest under `samples/`:
+- academic — papers, formal argument
+- narrative — essays, stories, long personal
+- conversational — chatty notes, informal
+- fun — humor / playful
+- email — emails, short pro asks
 
-Then ask (skip any they already answered; never block if they only give a topic):
+Mixed → primary + maybe one adjacent file.
 
-1. **What** are you writing? (email, essay, post, paper, story, other)
-2. **Who** is it for? — for **email**: relationship (who → whom); for **essay**: what the receiver expects at this stage (graded close reading, public post, draft, etc.)
-3. **Topic** — and your **specific take or angle** (what do *you* believe / want to argue / notice that a generic piece would miss?)
-4. **Rough outline** or section list if they have one
-5. **Rough notes**, bullets, half-thoughts — paste anything
-6. **Concrete examples, stories, numbers, or quotes** they want inside the piece (private grit — not "make something up that sounds specific")
-7. Anything they **do not** want (tone, claims, length)
+Read `samples/INDEX.md`, then 2–4 full files (email: several short ones).
 
-**Core principle (temperature = their ideas):** generic AI writing is empty because it has no private specifics. Every real opinion, anecdote, and awkward detail they give you is fuel. Prefer their words over yours. Invented "vivid" details still read as AI.
+### 3. Rules
 
-### 2. Pick a sample category
-
-Choose the closest folder under `samples/`:
-
-| Category | Use for |
-|----------|---------|
-| `academic` | Papers, analysis, formal argument |
-| `narrative` | Essays, stories, long-form personal prose |
-| `conversational` | Chatty notes, informal messages, one-to-one voice |
-| `fun` | Humor, lively, playful |
-| `email` | Emails, short professional asks |
-
-If mixed (e.g. funny essay), primary category + optionally skim one adjacent file.
-
-Read **`samples/INDEX.md`**, then read **2–4 full sample files** from the chosen category (more for email: aim for several short messages).
-
-### 3. Load the craft rules
-
-Read all of:
-
-- `rules/craft.md` — how humans write (cadence, stance, specificity)
-- `rules/ai-tells.md` — structural, performance, register, email anti-templates
-- `rules/reader-psych.md` — safe / fluent / ego-true (especially short external prose)
+Read all of: `rules/craft.md`, `rules/ai-tells.md`, `rules/reader-psych.md` (esp short external).
 
 ### 4. Personal voice (optional)
 
-Ask:
+Ask if they want *their* voice. If no → generic.
 
-> Do you want this in **your** voice (not just "a human")? If yes, I need real writing samples of yours.
+If yes: where are samples? local path, paste, Drive/Docs MCP, Gmail sent. Pull a lot (5–20+ if you can). Prefer same register. Nothing available → say so, fall back to generic. Match rhythm/stance, don't copy phrases.
 
-If **no** → generic human mode; continue.
+### 5. Outline then section write
 
-If **yes**:
+Short outline, light OK (or just write if they said so). One section at a time. After each, one question for uniqueness (angle? real example? too formal? cut what they'd never say?). Use their lines. Editor of their thought, not replacement author.
 
-1. Ask: **Where are some of your writing samples?** Local folder path(s), file list, or paste.
-2. Offer MCPs if available on their system:
-   - **Google Drive / Google Docs MCP** — essays, docs they wrote
-   - **Gmail MCP** — **sent** mail (their outbound voice)
-3. Pull **as many samples as practical** (prefer 5–20+ pieces or a large paste). Register-match when possible (if writing an email, prefer their sent emails).
-4. If they cannot connect anything and will not paste samples → fall back to **generic human** and say so.
-5. Skim samples for: sentence length variance, diction, humor, formality, what they never do. Prefer matching **rhythm and stance** over copying phrases.
+Obey rules + match samples (and their voice if twin).
 
-### 5. Outline, then section-by-section write
+### 6. Review (required — no skip)
 
-1. Propose a short outline from their material. Get a light OK (or proceed if they say just write).
-2. Write **one section at a time**.
-3. **After each section**, ask one question that adds uniqueness, e.g.:
-   - Is this the angle you meant?
-   - Any real example or number to drop in here?
-   - Too formal / too soft?
-   - What would *you* never say that I should cut?
-4. Incorporate answers before continuing.
-5. Use their language when they give lines. You are an **editor of their thought**, not a replacement author.
+Full draft exists → re-check before return.
 
-While drafting, obey `rules/` and match category samples (and their voice samples if in twin mode).
+Prefer a fresh subagent with intake + samples used + personal samples + rules/* + full draft. No subagent: self-review only after re-reading rules/intake from disk, not draft memory alone.
 
-### 6. Review pass (required)
-
-After the full draft exists:
-
-1. Prefer a **separate subagent / fresh agent** with the same context: their intake notes, category samples used, personal samples (if any), `rules/*`, and the full draft.
-2. If the host **cannot** spawn a subagent: self-review, but **re-read all prior inputs and rules first** (do not grade from memory of the draft alone).
-3. Reviewer job:
-   - Remove **AI signs** (`rules/ai-tells.md`, vocabulary/patterns in craft)
-   - Check **voice match** if twin mode (cadence/diction vs their samples)
-   - Check **reader psych** for short external pieces
-   - Quote offenders, fix them, return clean draft
-4. Present the revised draft to the user. Offer one more pass if they want.
-
----
+Reviewer: kill AI signs, voice match if twin, reader psych for short external, quote offenders fix them, return clean draft. Offer another pass if they want.
 
 ## Hard rules while writing
 
-1. **Humanness is set before generation** — samples + their ideas in the frame; do not rely on "sound human" as a slogan.
-2. **Their specifics beat your eloquence.** Private grit only; no generic-vivid filler.
-3. **No assistant costume:** no "Great question," no restating their prompt, no unsolicited menus mid-draft unless they ask.
-4. **No performed humanness:** no "I'll be blunt," fake all-lowercase, punchy fragment stacks for show. No default short declarative openers (bare 4–8 word S–V–O hooks as paragraph/piece starts — see craft cadence).
-5. **No interest-bridges** — never "that's where it gets interesting" / "weirdly interesting." **No "the part/section/bit X" labels.** **No definitional punches** ("That joining is fusion."). **No fake-plain gloss** ("shows up as" / "falls out as" heat and light).
-6. **No sealed product** — no stock vignette kit, no "no deep lesson" bow, no multi-beat coach memo when short will do.
-7. **Cadence:** vary sentence length; never three similar-length sentences in a row.
-8. **Take a side** when the piece needs a claim; leave a loop open when it doesn't need a maxim.
-9. **Em dashes** — avoid in external-facing prose (use commas or periods).
-10. **Do not** invent their opinions, bio, or facts.
-11. **Not a detector-evasion product.** Quality human prose, not "bypass Turnitin."
+1. Frame first (samples + their ideas). "Sound human" is not a method.
+2. Their specifics > your eloquence. Private grit only.
+3. No assistant costume: no Great question, no prompt restates, no menus mid-draft.
+4. No performed humanness: no I'll be blunt, fake lowercase, punchy fragment stacks. No default short declarative openers (bare 4–8 word S–V–O para hooks).
+5. No interest-bridges. No "the part/section/bit X". No definitional punches ("That joining is fusion."). No fake-plain gloss (shows up as / falls out as heat/light).
+6. No sealed product (stock vignette kit, no-deep-lesson bow, multi-beat coach memo when short works).
+7. Vary sentence length; never three similar in a row.
+8. Take a side when needed; leave loops open when maxim isn't needed.
+9. Em dashes: avoid in external prose.
+10. Don't invent their opinions/bio/facts.
+11. Not a detector-evasion product.
 
----
+## Quick path (they dumped everything)
 
-## Quick path (user already dumped everything)
+Infer category → 2–4 samples + rules → ask once personal voice? → draft (sections if long; short email can be one shot + review) → always review.
 
-If they paste topic + notes + "just write it":
+## Files
 
-1. Infer category → load 2–4 samples + rules  
-2. Ask once: personal voice? (yes/no)  
-3. Draft in sections still if long; for very short email, one draft + review is OK  
-4. Always run review pass  
-
----
-
-## File map
-
-```
-shakespeare/
-  SKILL.md          ← you are here
-  AGENTS.md         ← one-line agent entry
-  README.md         ← humans / install
-  LICENSE
-  rules/            ← craft + AI tells + reader psych
-  samples/          ← real human exemplars by category
-```
+SKILL.md (here), AGENTS.md (entry + must-check), README.md, LICENSE, rules/, samples/

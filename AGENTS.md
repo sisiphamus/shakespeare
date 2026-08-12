@@ -1,33 +1,32 @@
-# Shakespeare — agent entry
+# Shakespeare
 
-**What this is:** an agent-agnostic skill that writes like a human (generic), or like *you* (optional voice mode).
+Agent skill: write like a human (generic) or like them (if they give samples).
 
-**How to load:** read `SKILL.md` fully, then follow its process. Load rule files it points at. Load sample files from the category it selects under `samples/`.
+Load: read SKILL.md, follow it, load the rules it points at, load samples from the category it picks.
 
-**Install (any agent):** clone or copy this folder somewhere your agent can read. Tell the agent:
+Install: clone/copy the folder. Tell the agent:
 
-> Use the Shakespeare skill at `<path-to-this-folder>`. Read SKILL.md and follow it for any writing task.
+> Use the Shakespeare skill at `<path>`. Read SKILL.md and follow it for any writing task.
 
-Works with Claude Code, Codex, Hermes, OpenClaw, Cursor, or any agent that can read files and ask the user questions.
+Works with anything that can read files and ask questions (Claude Code, Codex, Hermes, OpenClaw, Cursor…).
 
-**Do not** invent a personal voice without samples. **Do not** skip the review pass.
+Don't invent a personal voice without samples. Don't skip review.
 
 ---
 
 ## MUST CHECK YOUR WORK
 
-YOU MUST CHECK YOUR WORK BEFORE YOU RETURN ANY DRAFT TO THE USER.
+YOU MUST CHECK BEFORE RETURNING ANY DRAFT. ONE-SHOT WITHOUT REVIEW = FAILING THIS SKILL.
 
-THIS IS NOT OPTIONAL. ONE-SHOT OUTPUT WITHOUT A REVIEW PASS IS A FAILURE TO FOLLOW THIS SKILL.
+After you write:
 
-AFTER YOU WRITE, YOU MUST:
+1. Re-read craft.md, ai-tells.md, REVIEW.md (and reader-psych.md for short external).
+2. Walk the full draft. Quote every offender. Fix it.
+3. Hard kills first: interest-bridges/labels, "the part/section/bit X", definitional punches ("that joining is fusion"), fake-plain gloss (shows up as / falls out as heat/light), false-humility closers, generic-vivid stock, sealed essay/product kits, performed fragment stacks, default short declarative openers (bare 4–8 word S–V–O para hooks), multi-beat coach memos when short works. Also cut over-clever workshop metaphors and weird verb-as-noun reification ("that squeeze," "brief meetings," "wins every time") — plain them, don't build a metaphor banlist. Cut faux-casual science ("hydrogen's kind," "not kitchen chemistry") and meta teach-back cosplay ("if that still feels thin," "the usual gaps are…").
 
-1. RE-READ `rules/craft.md`, `rules/ai-tells.md`, AND `rules/REVIEW.md` (AND `rules/reader-psych.md` FOR SHORT EXTERNAL PROSE).
-2. WALK THE FULL DRAFT AGAINST THOSE RULES. QUOTE EVERY OFFENDER. FIX IT.
-3. HARD KILLS FIRST: INTEREST-BRIDGES / INTEREST-LABELS, "THE PART/SECTION/BIT X" POINTERS, DEFINITIONAL PUNCHES ("THAT JOINING IS FUSION"), FAKE-PLAIN GLOSS ("SHOWS UP AS" / "FALLS OUT AS" HEAT/LIGHT), FALSE-HUMILITY CLOSERS, GENERIC-VIVID STOCK DETAIL, SEALED ESSAY/PRODUCT KITS, PERFORMED FRAGMENT STACKS, DEFAULT SHORT DECLARATIVE OPENERS (BARE 4–8 WORD S–V–O PARAGRAPH HOOKS), MULTI-BEAT COACH MEMOS WHEN SHORT WILL DO. ALSO CUT OVER-CLEVER WORKSHOP METAPHORS AND WEIRD VERB-AS-NOUN REIFICATION ("THAT SQUEEZE," "BRIEF MEETINGS," "WINS EVERY TIME") — PLAIN THEM; DO NOT BUILD A METAPHOR BANLIST. CUT FAUX-CASUAL SCIENCE ("HYDROGEN'S KIND," "NOT KITCHEN CHEMISTRY") AND META TEACH-BACK COSPLAY ("IF THAT STILL FEELS THIN," "THE USUAL GAPS ARE…").
+If you still ship "that X is Y" snaps or "shows up as heat and light," you didn't check hard enough.
 
-THE SELF-CHECK MUST CATCH THESE. IF YOU STILL SHIP "THAT X IS Y" SNAP DEFINITIONS OR "SHOWS UP AS HEAT AND LIGHT," YOU DID NOT CHECK HARD ENOUGH.
-4. PREFER A FRESH SUBAGENT FOR THE REVIEW. IF YOU CANNOT SPAWN ONE, SELF-REVIEW ONLY AFTER RE-READING THE RULES AND INTAKE FROM DISK — NOT FROM MEMORY OF THE DRAFT ALONE.
-5. DO NOT SHIP UNTIL THE REVIEWED VERSION IS THE VERSION YOU RETURN.
+4. Prefer a fresh subagent for review. Else self-review only after re-reading rules + intake from disk.
+5. Ship only the reviewed version.
 
-IF THE USER SAYS “ONLY OUTPUT THE ESSAY,” YOU STILL RUN THE CHECK FIRST. RETURN ONLY THE FINAL REVIEWED TEXT IF THEY WANT A CLEAN ARTIFACT — BUT THE CHECK STILL HAPPENS.
+User says "only output the essay" → still check first; return only final text if they want a clean artifact.

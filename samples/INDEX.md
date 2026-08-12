@@ -1,35 +1,17 @@
 # Samples
 
-Pick a category, then read two to four full files (for email, several short messages). Prefer whole pieces over header skimming.
+Pick a category, read 2–4 full files (email: several short). Whole pieces > header skim.
 
-| Category | Folder | What it trains |
-|----------|--------|----------------|
-| **academic** | `academic/` | formal argument, paper voice |
-| **narrative** | `narrative/` | essay flow, personal and public narrative |
-| **conversational** | `conversational/` | one-to-one address, casual SMS feel |
-| **fun** | `fun/` | humor, timing, lively prose and fun SMS |
-| **email** | `email/` | real workplace mail that is short, uneven, and human |
+- academic/ — formal argument, paper voice
+- narrative/ — essay flow, personal + public narrative
+- conversational/ — one-to-one, casual SMS feel
+- fun/ — humor, timing, lively + fun SMS
+- email/ — real workplace mail: short, uneven, human
 
-## How many to load
+Rough load: academic 2–3 openings/abstracts · narrative 1–2 essays · conversational 2 letter excerpts or 2 SMS batches · fun 1 story excerpt (+ optional fun SMS) · email 6–12 short across different people when you can
 
-| Category | Rough load |
-|----------|------------|
-| academic | two to three openings or abstracts |
-| narrative | one or two essays |
-| conversational | two letter excerpts or two SMS batches |
-| fun | one story excerpt, optional fun SMS batch |
-| email | six to twelve short messages across different people when possible |
+Match: paper/formal → academic · essay/Substack/story → narrative · Slack-like/chatty letter → conversational · joke-forward → fun · email → email
 
-## Matching
+Mixed: primary + one neighbor.
 
-| User is writing | Category |
-|-----------------|----------|
-| paper, formal analysis | academic |
-| essay, Substack, story | narrative |
-| Slack-like note, chatty letter | conversational |
-| joke-forward or playful piece | fun |
-| email | email |
-
-For mixed work, use a primary category and one neighboring sample.
-
-Provenance lives in [SOURCES.md](SOURCES.md).
+Provenance: SOURCES.md

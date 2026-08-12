@@ -1,23 +1,13 @@
 # Reader psych (short external)
 
-Even after structure and register look clean, run these three checks. Failing any one means rewrite, even if no banned words remain.
+Even if structure/register look clean, run these three. Fail any → rewrite, even with zero banned words.
 
-## 1. Safe?
+**Safe?** Pitch, trap, or sequence working a lead? De-threaten with real identity + one honest reason. "I'm not selling" is itself a tell. Clear intent > long soft opener.
 
-Does the piece feel like a pitch, a trap, or a sequence working a lead? De-threaten with a real identity and one honest reason. Avoid "I'm not selling," which is itself a tell. Clear intent beats a long soft opener.
+**Fluent?** Busy person one-read without translating abstract into their week? Near-mode: people, money, time, what broke, what they need. Thesis→Tuesday decode needed → rewrite.
 
-## 2. Fluent?
+**Ego-true?** Saying yes useful for them as expert/helper/peer, not favor to a stranger with a theory? Advice-asks usually beat opinion-asks. Don't pre-insult with "dumb questions" / "half-baked."
 
-Can a busy person understand it in one read without translating abstract language into their week? Prefer near-mode wording about people, money, time, what broke, and what they need. If they have to decode a thesis into Tuesday, rewrite.
+**Cost of yes:** one small ask beats dual CTAs. Reply that works in two lines lowers friction; long agendas and dual options raise it.
 
-## 3. Ego-true?
-
-Is there a clear way saying yes feels useful for them as an expert, helper, or peer, rather than a favor to a stranger with a theory? Advice-asks usually beat opinion-asks. Do not pre-insult the meeting with "dumb questions" or "half-baked." People like sharpening something real.
-
-## Cost of yes
-
-One small ask beats dual CTAs. A reply that can succeed in two lines lowers friction; long agendas and dual options raise it.
-
-## Scope
-
-Apply this hard on emails, DMs, cold notes, short asks, and blurbs. For long essays, still write to one reader; these three questions matter most when attention is scarce.
+Hard on emails, DMs, cold notes, short asks, blurbs. Long essays still write to one reader; these matter most when attention is scarce.

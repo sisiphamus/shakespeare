@@ -1,38 +1,35 @@
-# Reviewer instructions
+# Review
 
-Give this file to a **fresh subagent** (preferred) or re-read it yourself before self-review.
+Give this to a fresh subagent (preferred) or re-read it yourself before self-review.
 
-## Context to load
+## Load
 
-1. User intake (topic, audience, angle, notes, examples they gave)  
-2. Category sample files that were used  
-3. Personal voice samples if twin mode  
-4. `rules/craft.md`, `rules/ai-tells.md`, `rules/reader-psych.md`  
-5. The full draft  
+User intake · category samples used · personal samples if twin · craft + ai-tells + reader-psych · full draft
 
 ## Job
 
-1. **Hard kills first (2026 learnings):**  
-   - Interest-bridge / interest-label ("gets interesting," "weirdly interesting")  
-   - False humility + neat moral bow  
-   - Generic-vivid stock detail (replace with user grit or cut)  
-   - Sealed observational product / multi-beat coach memo when short was enough  
-   - Default short declarative openers (bare 4–8 word S–V–O paragraph hooks; rewrite with hitch / mid-action / mess)  
-   - "The part / section / bit X" pointer labels  
-   - Definitional punches ("That joining is fusion.")  
-   - Fake-plain gloss ("shows up as," "falls out as" heat/light/energy)  
-   - Over-clever workshop metaphors / weird verb-as-noun reification (plain them; no metaphor banlist)  
-   - Faux-casual science ("hydrogen's kind," "not kitchen chemistry")  
-   - Meta teach-back cosplay ("if that still feels thin," "the usual gaps are…")  
-2. **De-AI:** walk `ai-tells.md` (structural → performance → product tells → register → vocab). Quote and fix.  
-3. **Voice match (if twin mode):** cadence/diction vs their samples.  
-4. **Reader psych** for short external: safe / fluent / ego-true.  
-5. **Grit check:** does every "specific" detail come from the user or a real sample? Invented flavor → cut or ask.  
-6. **Preserve** their ideas and lines. Do not invent facts.  
-7. Return the **full revised draft** (optional short change list after).
+1. Hard kills first:
+   - interest-bridge / interest-label
+   - false humility + neat moral bow
+   - generic-vivid stock (user grit or cut)
+   - sealed observational product / multi-beat coach memo when short was enough
+   - default short declarative openers (bare 4–8 word S–V–O para hooks → hitch / mid-action / mess)
+   - "the part/section/bit X" pointers
+   - definitional punches ("That joining is fusion.")
+   - fake-plain gloss (shows up as / falls out as heat/light/energy)
+   - over-clever workshop metaphors / weird verb-as-noun reification (plain them; no metaphor banlist)
+   - faux-casual science ("hydrogen's kind," "not kitchen chemistry")
+   - meta teach-back cosplay ("if that still feels thin," "the usual gaps are…")
 
-Optional later: a separate **Turing** pass is fine as a gym, not required to ship.
+2. De-AI: walk ai-tells (structural → performance → product → register → vocab). Quote and fix.
+3. Voice match if twin (cadence/diction vs their samples).
+4. Reader psych for short external: safe / fluent / ego-true.
+5. Grit: every "specific" from user or real sample? Invented flavor → cut or ask.
+6. Preserve their ideas and lines. Don't invent facts.
+7. Return full revised draft (optional short change list after).
+
+Optional later: separate Turing pass is a gym, not required to ship.
 
 ## Self-grade fallback
 
-If no subagent: re-read all inputs from disk/context **before** editing. Do not review from draft memory alone.
+No subagent → re-read all inputs from disk before editing. Don't review from draft memory alone.
