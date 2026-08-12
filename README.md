@@ -1,27 +1,14 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Shakespeare" width="100%"/>
-</p>
-
-<p align="center">
-  <a href="#install"><img src="https://img.shields.io/badge/install-clone_&_point-1c1410?style=for-the-badge&labelColor=0c0a09&color=d4a574" alt="install"/></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1c1410?style=for-the-badge&labelColor=0c0a09&color=f5e6c8" alt="MIT"/></a>
-  <img src="https://img.shields.io/badge/type-agent_skill-1c1410?style=for-the-badge&labelColor=0c0a09&color=a88b6a" alt="agent skill"/>
-  <img src="https://img.shields.io/badge/host-agnostic-1c1410?style=for-the-badge&labelColor=0c0a09&color=6b5344" alt="host agnostic"/>
-</p>
-
-<p align="center">
-  <code>email</code> · <code>essay</code> · <code>post</code> · <code>story</code> · <code>academic</code> · <code>chat</code> · <code>voice-match</code>
-</p>
-
----
+![Shakespeare](assets/banner.svg)
 
 # Shakespeare
 
-Your agent already writes. It just writes like a product brochure with a soul patch.
+Your agent already writes. Most of the time it writes like a brochure that went to a writing class.
 
-**Shakespeare** is a drop-in skill that forces a real process: steal your ideas first, read human samples, draft in chunks, then check the work like it matters. Generic human, or *your* voice if you feed it your writing.
+This skill is a process you drop into Claude, Codex, Cursor, Hermes, OpenClaw, or anything else that can read a folder. It steals your ideas first, reads real human samples, drafts in sections, then forces a check against a hard banlist before anything ships. Generic human, or your voice if you hand it your own writing.
 
-Not a magic "undetectable" button. If you give it nothing private, you get nothing private.
+Give it nothing private and you get nothing private. That is the whole product.
+
+[MIT](LICENSE) · host-agnostic · [issues](https://github.com/sisiphamus/shakespeare/issues)
 
 ---
 
@@ -31,102 +18,69 @@ Not a magic "undetectable" button. If you give it nothing private, you get nothi
 git clone https://github.com/sisiphamus/shakespeare.git
 ```
 
-Point any agent at the folder:
+Tell the agent:
 
-```text
+```
 Use the Shakespeare skill in this folder.
 Read AGENTS.md then SKILL.md. Follow the process.
 ```
 
-| Host | Notes |
-|------|--------|
-| Claude Code | Path or symlink into skills |
-| Codex / Cursor | Same one-liner |
-| Hermes / OpenClaw | Drop on the skill path (`SKILL.md` + `AGENTS.md`) |
+Works the same on Claude Code (path or skills symlink), Codex, Cursor, Hermes, and OpenClaw.
 
 ---
 
-## What you get
+## How it runs
 
-```
-you dump topic + takes + messy notes
-        │
-        ▼
-┌───────────────────┐
-│  samples by genre │  academic · narrative · chat · fun · email
-└─────────┬─────────┘
-          ▼
-┌───────────────────┐
-│  craft + banlist  │  rhythm, grit, hard kills
-└─────────┬─────────┘
-          ▼
-┌───────────────────┐
-│  section drafts   │  you keep interrupting with real details
-└─────────┬─────────┘
-          ▼
-┌───────────────────┐
-│  must check work  │  re-read rules, fix, then ship
-└───────────────────┘
-```
+1. You say what you are writing and dump as much of your take as you want (topic, audience, notes, real details).
+2. It loads samples for the genre: academic, narrative, conversational, fun, or email.
+3. It loads craft rules and the banlist.
+4. Optional: your voice from local files, Drive/Docs, or Gmail sent mail.
+5. It drafts section by section and keeps pulling specifics from you.
+6. It **must** re-check against the rules before returning the draft. One-shot without review is a fail.
 
 Two modes:
 
-| Mode | When |
-|------|------|
-| **generic human** | samples + rules |
-| **your voice** | same + your docs / Drive / sent mail |
+| | |
+|--|--|
+| **Generic human** | samples + rules |
+| **Your voice** | same, plus as much of your writing as you can give |
 
-No files, no MCP? Generic human. Don't invent a "you."
-
----
-
-## Hard kills (the stuff that always reeks)
-
-These get cut on review. Full list lives in `rules/`.
-
-| Die | Examples |
-|-----|----------|
-| Interest labels | "that's where it gets interesting," "weirdly interesting" |
-| Pointer glue | "the part people see," "the section that matters" |
-| Definition snaps | "That joining is fusion." |
-| Fake-plain gloss | "shows up as heat and light," "falls out as" |
-| Short S–V–O hooks | "The mower started on the third pull." as every paragraph open |
-| Sealed kits | stock vignette essays, multi-beat coach memos for a 3-line email |
-| Costume casual | fragment stacks, "I'll be blunt," workshop metaphors nobody says |
-
-**Grit over color.** Your awkward real detail beats a clever invented one every time.
+No files and no MCP means generic human. Do not invent a “you.”
 
 ---
 
-## Layout
+## What gets killed on review
 
-```text
+Full list is in `rules/`. The high-signal ones:
+
+- Interest labels (“that’s where it gets interesting”)
+- Pointer glue (“the part people see”)
+- Definition snaps (“That joining is fusion.”)
+- Fake-plain gloss (“shows up as heat and light”)
+- Bare 4–8 word scene openers as every paragraph start
+- Sealed essay kits and multi-beat coach memos for a three-line email
+- Costume casual (fragment stacks, “I’ll be blunt,” workshop metaphors nobody says)
+- Faux-casual science and teach-back cosplay
+
+Your awkward real detail beats a clever invented one.
+
+---
+
+## Repo
+
+```
 shakespeare/
-├── AGENTS.md      ← entry + MUST CHECK YOUR WORK
-├── SKILL.md       ← full process
-├── rules/
-│   ├── craft.md
-│   ├── ai-tells.md
-│   ├── reader-psych.md
-│   └── REVIEW.md
-├── samples/       ← real human text (see SOURCES.md)
-│   ├── academic/
-│   ├── narrative/
-│   ├── conversational/
-│   ├── fun/
-│   └── email/
-└── assets/
-    └── banner.svg
+  AGENTS.md       entry + MUST CHECK YOUR WORK
+  SKILL.md        full process
+  rules/          craft, banlist, reader psych, review
+  samples/        real human text by genre (see SOURCES.md)
+  assets/         banner
 ```
 
-Samples: Project Gutenberg, PLOS (CC BY), Enron public release, NUS SMS excerpts. Licenses on the files.
+Sample sources: Project Gutenberg, PLOS (CC BY), Enron public release, NUS SMS excerpts. Licenses sit on the files.
 
 ---
 
 ## License
 
-MIT for the skill packaging and rules. Sample text keeps whatever license is in its header.
-
----
-
-<p align="center"><sub>built because banlists alone do not fix rhythm</sub></p>
+MIT for the skill and rules. Samples keep the license in their headers.
