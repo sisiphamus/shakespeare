@@ -1,61 +1,60 @@
-# Shakespeare
+# Shakespeare (instance 1)
 
-**Agent-agnostic skill: write like a human — or like you.**
+Write like a human, or like a specific person if you feed the skill their writing.
 
-Not a detector-evasion tool. A writing process: pull real human samples, pull the user's own ideas (and optional personal corpus), co-write section by section, then review for AI tells and voice match.
+This is a process rather than a detector-evasion tool: real samples, the user's ideas, section-by-section drafting, then a review that removes AI sludge and checks voice.
 
-## Install (any agent)
+**shakespeare-1** is a test copy of the main skill with the instructional prose rewritten for a more casual, human register. The rules and information match the parent system.
+
+## Install
 
 ```bash
 git clone https://github.com/sisiphamus/shakespeare.git
+# or point your agent at this folder
 ```
 
-Point your agent at the folder. Examples:
+| Host | What to do |
+|------|------------|
+| Claude Code | Point at this path, or symlink into skills |
+| Codex / Cursor | Use Shakespeare at `<path>` and read SKILL.md |
+| Hermes / OpenClaw | Put the folder on the skill path; entry files are `SKILL.md` and `AGENTS.md` |
 
-| Agent | What to say / do |
-|-------|------------------|
-| **Claude Code** | Copy or symlink into a skills path, or: *Read `…/shakespeare/SKILL.md` and follow it for writing.* |
-| **Codex / Cursor / others** | *Use the Shakespeare skill at `<path>`. Read SKILL.md.* |
-| **Hermes / OpenClaw** | Add the folder to whatever skill/plugin path the host uses; entry files are `SKILL.md` + `AGENTS.md`. |
-
-One-liner for the agent:
-
-> Clone or open https://github.com/sisiphamus/shakespeare — read `SKILL.md` and run that process for this writing task.
+Tell the agent to open this Shakespeare folder, read `SKILL.md`, and run that process for the writing task.
 
 ## What it does
 
-1. Asks what you're writing (answers optional; more of *your* ideas → more human)
-2. Loads **real human samples** from the closest category (`academic`, `narrative`, `conversational`, `fun`, `email`)
-3. Loads craft rules + AI-tell + reader-psychology checks
-4. Optional: **your voice** via local files, Google Drive/Docs MCP, Gmail MCP (sent mail)
-5. Writes **section by section**, asking after each for more of your specifics
-6. **Review pass** (separate subagent if possible): de-AI + grit check + voice match
+1. Asks what you are writing (questions are optional; more of your ideas usually helps)
+2. Loads real human samples from the closest category
+3. Loads craft, AI-tell, and reader-psych rules
+4. Optionally pulls your voice from local files, Drive/Docs, or Gmail sent mail
+5. Writes section by section and keeps asking for your specifics
+6. Runs a review pass for de-AI, grit, and voice match
 
-**Hard anti-tells (from live calibration):** no interest-bridges ("gets interesting"), no generic-vivid stock detail, no sealed observational essay kit, no false-humility closers. User grit > invented color.
+Phrases that almost always sound fake include interest-bridges ("that's where it gets interesting"), stock "vivid" details nobody actually lived, neat observational essay kits, and closers that deny a deep lesson while handing you one. Prefer the user's grit.
 
 ## Modes
 
-- **Generic human** — category samples + rules only  
-- **Your voice** — same, plus as many of your own samples as you can give  
+- **Generic human** — samples and rules  
+- **Your voice** — same, plus as much of their writing as you can get  
 
-If you decline local paths and MCPs, it stays generic human.
+Without files or MCP access, stay in generic human mode.
 
 ## Layout
 
 ```
-shakespeare/
-  SKILL.md           # process (agents read this)
-  AGENTS.md          # short entry
-  README.md          # you are here
-  LICENSE            # MIT (skill packaging)
-  rules/             # craft, AI tells, reader psych
-  samples/           # real human exemplars + SOURCES.md
+shakespeare-1/
+  SKILL.md      # process
+  AGENTS.md     # short entry
+  README.md     # this file
+  LICENSE       # MIT for skill packaging
+  rules/        # craft, tells, reader psych, review
+  samples/      # real human text by category + SOURCES.md
 ```
 
-## Samples (provenance)
+## Samples
 
-See [`samples/SOURCES.md`](samples/SOURCES.md). Categories use public-domain literature (Project Gutenberg), CC BY open-access papers (PLOS), the Enron email corpus (public research release), and attributed NUS SMS excerpts for casual register.
+See `samples/SOURCES.md` for provenance (Project Gutenberg public domain, PLOS CC BY, Enron public release, attributed NUS SMS excerpts).
 
 ## License
 
-MIT for skill code and rules. Sample texts keep the licenses stated in their file headers.
+MIT for skill packaging and rules. Sample files keep the licenses in their headers.

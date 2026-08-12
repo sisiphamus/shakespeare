@@ -1,35 +1,35 @@
-# Sample index
+# Samples
 
-Pick a category, then read **2–4 files** (for `email`, read several short messages). Prefer full files over skimming headers only.
+Pick a category, then read two to four full files (for email, several short messages). Prefer whole pieces over header skimming.
 
-| Category | Path | What it trains |
-|----------|------|----------------|
-| **academic** | `academic/` | Formal argument, abstract→claim density, paper voice |
-| **narrative** | `narrative/` | Essay flow, personal/public narrative, cumulative sentences |
-| **conversational** | `conversational/` | One-to-one address (letters) + modern casual SMS register |
-| **fun** | `fun/` | Humor, comic timing, lively dialogue/prose + fun SMS |
-| **email** | `email/` | Real workplace email: short, specific, uneven, human |
+| Category | Folder | What it trains |
+|----------|--------|----------------|
+| **academic** | `academic/` | formal argument, paper voice |
+| **narrative** | `narrative/` | essay flow, personal and public narrative |
+| **conversational** | `conversational/` | one-to-one address, casual SMS feel |
+| **fun** | `fun/` | humor, timing, lively prose and fun SMS |
+| **email** | `email/` | real workplace mail that is short, uneven, and human |
 
 ## How many to load
 
-| Category | Suggested load |
-|----------|----------------|
-| academic | 2–3 abstracts/openings |
-| narrative | 1–2 essays |
-| conversational | 2 letter excerpts **or** 2 SMS batches |
-| fun | 1 short story excerpt + optional SMS fun batch |
-| email | **6–12** short messages across different people |
+| Category | Rough load |
+|----------|------------|
+| academic | two to three openings or abstracts |
+| narrative | one or two essays |
+| conversational | two letter excerpts or two SMS batches |
+| fun | one story excerpt, optional fun SMS batch |
+| email | six to twelve short messages across different people when possible |
 
-## Matching guide
+## Matching
 
-| User is writing… | Category |
-|------------------|----------|
-| Paper, lit review, formal analysis | academic |
-| Essay, Substack, story, speech draft | narrative |
-| Slack-like note, informal update, chatty letter | conversational |
-| Joke-forward post, comic essay, playful copy | fun |
-| Email, cold or warm, short professional | email |
+| User is writing | Category |
+|-----------------|----------|
+| paper, formal analysis | academic |
+| essay, Substack, story | narrative |
+| Slack-like note, chatty letter | conversational |
+| joke-forward or playful piece | fun |
+| email | email |
 
-Mixed pieces: primary category + one adjacent sample.
+For mixed work, use a primary category and one neighboring sample.
 
-Full provenance: [SOURCES.md](SOURCES.md).
+Provenance lives in [SOURCES.md](SOURCES.md).
