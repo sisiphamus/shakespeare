@@ -1,4 +1,10 @@
-![Shakespeare](assets/banner.svg)
+```
+SHAKESPEARE          ________
+                     /       /|
+write like a person /_______/ |
+or like you         |       | /
+                    |_______|/
+```
 
 # Shakespeare
 
@@ -6,9 +12,11 @@ Your agent already writes. Most of the time it writes like a brochure that went 
 
 This skill is a process you drop into Claude, Codex, Cursor, Hermes, OpenClaw, or anything else that can read a folder. It steals your ideas first, reads real human samples, drafts in sections, then forces a check against a hard banlist before anything ships. Generic human, or your voice if you hand it your own writing.
 
-Give it nothing private and you get nothing private. That is the whole product.
+Give it nothing private and you get nothing private.
 
-[MIT](LICENSE) · host-agnostic · [issues](https://github.com/sisiphamus/shakespeare/issues)
+```
+MIT · host-agnostic · clone and point
+```
 
 ---
 
@@ -38,12 +46,10 @@ Works the same on Claude Code (path or skills symlink), Codex, Cursor, Hermes, a
 5. It drafts section by section and keeps pulling specifics from you.
 6. It **must** re-check against the rules before returning the draft. One-shot without review is a fail.
 
-Two modes:
-
-| | |
-|--|--|
-| **Generic human** | samples + rules |
-| **Your voice** | same, plus as much of your writing as you can give |
+| mode | when |
+|------|------|
+| generic human | samples + rules |
+| your voice | same, plus as much of your writing as you can give |
 
 No files and no MCP means generic human. Do not invent a “you.”
 
@@ -51,7 +57,7 @@ No files and no MCP means generic human. Do not invent a “you.”
 
 ## What gets killed on review
 
-Full list is in `rules/`. The high-signal ones:
+Full list is in `rules/`. High-signal ones:
 
 - Interest labels (“that’s where it gets interesting”)
 - Pointer glue (“the part people see”)
